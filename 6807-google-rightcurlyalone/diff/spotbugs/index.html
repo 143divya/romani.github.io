@@ -1,0 +1,4940 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												fileExtensions
+												
+													<li>java, properties, xml</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												fileExtensions
+												
+													<li>java, properties, xml</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionFilter</td>
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FileTabCharacter</td>
+										
+										<td class="c">
+											
+												eachLine
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												eachLine
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LineLength</td>
+										
+										<td class="c">
+											
+												fileExtensions
+												
+													<li>java</li>
+												
+												<br/>
+											
+												max
+												
+													<li>100</li>
+												
+												<br/>
+											
+												ignorePattern
+												
+													<li>^package.*|^import.*|a href|href|http://|https://|ftp://</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileExtensions
+												
+													<li>java</li>
+												
+												<br/>
+											
+												max
+												
+													<li>100</li>
+												
+												<br/>
+											
+												ignorePattern
+												
+													<li>^package.*|^import.*|a href|href|http://|https://|ftp://</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">OuterTypeFilename</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">IllegalTokenText</td>
+										
+										<td class="c">
+											
+												format
+												
+													<li>\\u00(09|0(a|A)|0(c|C)|0(d|D)|22|27|5(C|c))|\\(0(10|11|12|14|15|42|47)|134)</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>STRING_LITERAL, CHAR_LITERAL</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Consider using special escape sequence instead of octal value or Unicode escaped value.</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												format
+												
+													<li>\\u00(09|0(a|A)|0(c|C)|0(d|D)|22|27|5(C|c))|\\(0(10|11|12|14|15|42|47)|134)</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>STRING_LITERAL, CHAR_LITERAL</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Consider using special escape sequence instead of octal value or Unicode escaped value.</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AvoidEscapedUnicodeCharacters</td>
+										
+										<td class="c">
+											
+												allowNonPrintableEscapes
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowByTailComment
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEscapesForControlCharacters
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNonPrintableEscapes
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowByTailComment
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEscapesForControlCharacters
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AvoidStarImport</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OneTopLevelClass</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoLineWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyBlock</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH</li>
+												
+												<br/>
+											
+												option
+												
+													<li>TEXT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH</li>
+												
+												<br/>
+											
+												option
+												
+													<li>TEXT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NeedBraces</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LeftCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF,                     INTERFACE_DEF, LAMBDA, LITERAL_CASE, LITERAL_CATCH, LITERAL_DEFAULT,                     LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, METHOD_DEF,                     OBJBLOCK, STATIC_INIT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF,                     INTERFACE_DEF, LAMBDA, LITERAL_CASE, LITERAL_CATCH, LITERAL_DEFAULT,                     LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, METHOD_DEF,                     OBJBLOCK, STATIC_INIT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">RightCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_CATCH, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE,                     LITERAL_DO</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlySame</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_CATCH, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE,                     LITERAL_DO</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlySame</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">RightCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,                     INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+												option
+												
+													<li>alone</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,                     INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+												option
+												
+													<li>alone</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">WhitespaceAround</td>
+										
+										<td class="c">
+											
+												allowEmptyConstructors
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notPreceded
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												allowEmptyLambdas
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEmptyMethods
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notFollowed
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not followed by whitespace. Empty blocks may only be represented as &#39;{}&#39; when not part of a multi-block statement (4.1.3)</li>
+												
+												<br/>
+											
+												allowEmptyLoops
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,                     BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,                     LCURLY, LE, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,                     LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED,                      LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,                      NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, RCURLY, SL, SLIST, SL_ASSIGN, SR,                      SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND</li>
+												
+												<br/>
+											
+												allowEmptyTypes
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowEmptyConstructors
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notPreceded
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												allowEmptyLambdas
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEmptyMethods
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notFollowed
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not followed by whitespace. Empty blocks may only be represented as &#39;{}&#39; when not part of a multi-block statement (4.1.3)</li>
+												
+												<br/>
+											
+												allowEmptyLoops
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,                     BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,                     LCURLY, LE, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,                     LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED,                      LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,                      NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, RCURLY, SL, SLIST, SL_ASSIGN, SR,                      SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND</li>
+												
+												<br/>
+											
+												allowEmptyTypes
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OneStatementPerLine</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MultipleVariableDeclarations</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ArrayTypeStyle</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MissingSwitchDefault</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FallThrough</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">UpperEll</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ModifierOrder</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                     STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                     STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>DOT</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapDot</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>DOT</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapDot</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapComma</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapComma</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ELLIPSIS</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapEllipsis</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ELLIPSIS</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapEllipsis</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ARRAY_DECLARATOR</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapArrayDeclarator</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ARRAY_DECLARATOR</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapArrayDeclarator</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>METHOD_REF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapMethodRef</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>METHOD_REF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapMethodRef</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">PackageName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Package name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]+(\.[a-z][a-z0-9]*)*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Package name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]+(\.[a-z][a-z0-9]*)*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TypeName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MemberName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Member name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Member name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LambdaParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Lambda parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Lambda parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CatchParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Catch parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Catch parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LocalVariableName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Local variable name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Local variable name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ClassTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Class type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Class type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">InterfaceTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Interface type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Interface type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoFinalizer</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">GenericWhitespace</td>
+										
+										<td class="c">
+											
+												ws.notPreceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.followed
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is followed by whitespace.</li>
+												
+												<br/>
+											
+												ws.preceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.illegalFollow
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; should followed by whitespace.</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												ws.notPreceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.followed
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is followed by whitespace.</li>
+												
+												<br/>
+											
+												ws.preceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.illegalFollow
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; should followed by whitespace.</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">Indentation</td>
+										
+										<td class="c">
+											
+												throwsIndent
+												
+													<li>4</li>
+												
+												<br/>
+											
+												arrayInitIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												caseIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												basicOffset
+												
+													<li>2</li>
+												
+												<br/>
+											
+												braceAdjustment
+												
+													<li>0</li>
+												
+												<br/>
+											
+												lineWrappingIndentation
+												
+													<li>4</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												throwsIndent
+												
+													<li>4</li>
+												
+												<br/>
+											
+												arrayInitIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												caseIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												basicOffset
+												
+													<li>2</li>
+												
+												<br/>
+											
+												braceAdjustment
+												
+													<li>0</li>
+												
+												<br/>
+											
+												lineWrappingIndentation
+												
+													<li>4</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF</li>
+												
+												<br/>
+											
+												ignoreFinal
+												
+													<li>false</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF</li>
+												
+												<br/>
+											
+												ignoreFinal
+												
+													<li>false</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>1</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OverloadMethodsDeclarationOrder</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">VariableDeclarationUsageDistance</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CustomImportOrder</td>
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>IMPORT, STATIC_IMPORT, PACKAGE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>IMPORT, STATIC_IMPORT, PACKAGE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodParamPad</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF,                     SUPER_CTOR_CALL, ENUM_CONSTANT_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF,                     SUPER_CTOR_CALL, ENUM_CONSTANT_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoWhitespaceBefore</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA, SEMI, POST_INC, POST_DEC, DOT, ELLIPSIS, METHOD_REF</li>
+												
+												<br/>
+											
+												allowLineBreaks
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA, SEMI, POST_INC, POST_DEC, DOT, ELLIPSIS, METHOD_REF</li>
+												
+												<br/>
+											
+												allowLineBreaks
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ParenPad</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION, ANNOTATION_FIELD_DEF, CTOR_CALL, CTOR_DEF, DOT, ENUM_CONSTANT_DEF,                     EXPR, LITERAL_CATCH, LITERAL_DO, LITERAL_FOR, LITERAL_IF, LITERAL_NEW,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_WHILE, METHOD_CALL,                     METHOD_DEF, QUESTION, RESOURCE_SPECIFICATION, SUPER_CTOR_CALL, LAMBDA</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION, ANNOTATION_FIELD_DEF, CTOR_CALL, CTOR_DEF, DOT, ENUM_CONSTANT_DEF,                     EXPR, LITERAL_CATCH, LITERAL_DO, LITERAL_FOR, LITERAL_IF, LITERAL_NEW,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_WHILE, METHOD_CALL,                     METHOD_DEF, QUESTION, RESOURCE_SPECIFICATION, SUPER_CTOR_CALL, LAMBDA</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OperatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>BAND, BOR, BSR, BXOR, DIV, EQUAL, GE, GT, LAND, LE, LITERAL_INSTANCEOF, LOR,                     LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF </li>
+												
+												<br/>
+											
+												option
+												
+													<li>NL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>BAND, BOR, BSR, BXOR, DIV, EQUAL, GE, GT, LAND, LE, LITERAL_INSTANCEOF, LOR,                     LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF </li>
+												
+												<br/>
+											
+												option
+												
+													<li>NL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AnnotationLocation</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationMostCases</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationMostCases</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AnnotationLocation</td>
+										
+										<td class="c">
+											
+												allowSamelineMultipleAnnotations
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationVariables</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowSamelineMultipleAnnotations
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationVariables</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NonEmptyAtclauseDescription</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">InvalidJavadocPosition</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocTagContinuationIndentation</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SummaryJavadoc</td>
+										
+										<td class="c">
+											
+												forbiddenSummaryFragments
+												
+													<li>^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												forbiddenSummaryFragments
+												
+													<li>^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocParagraph</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AtclauseOrder</td>
+										
+										<td class="c">
+											
+												tagOrder
+												
+													<li>@param, @return, @throws, @deprecated</li>
+												
+												<br/>
+											
+												target
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tagOrder
+												
+													<li>@param, @return, @throws, @deprecated</li>
+												
+												<br/>
+											
+												target
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												allowMissingReturnTag
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMissingParamTags
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												allowMissingReturnTag
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMissingParamTags
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MissingJavadocMethod</td>
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												minLineCount
+												
+													<li>2</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												minLineCount
+												
+													<li>2</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9_]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9_]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SingleLineJavadoc</td>
+										
+										<td class="c">
+											
+												ignoreInlineTags
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												ignoreInlineTags
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyCatchBlock</td>
+										
+										<td class="c">
+											
+												exceptionVariableName
+												
+													<li>expected</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												exceptionVariableName
+												
+													<li>expected</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CommentsIndentation</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>SINGLE_LINE_COMMENT, BLOCK_COMMENT_BEGIN</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>SINGLE_LINE_COMMENT, BLOCK_COMMENT_BEGIN</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathFilter</td>
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionxpathfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionxpathfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												query
+												
+													<li>//RCURLY[parent::SLIST[count(./*)=1]                                                  or preceding-sibling::*[last()][self::LCURLY]]</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2686</td>
+							<td id="totalBase">176190</td>
+							
+								<td id="warningSeverityNumBase">176190</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2686</td>
+							<td id="totalPatch">176114 (76 removed)</td>
+							
+								<td id="warningSeverityStatisticsPatch">176114 (76 removed)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">37 files with differences</td>
+							<td id="totalDiff">76 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">76 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.CatchParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck</th>
+								
+									<th>SeparatorWrapComma</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck</th>
+								
+									<th>RightCurlyAlone</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.UpperEllCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck</th>
+								
+									<th>RightCurlySame</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.InterfaceTypeParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck</th>
+								
+									<th>AnnotationLocationMostCases</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleNumBase">409</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheckModuleNumBase">102</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleNumBase">19</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheckModuleNumBase">8</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleNumBase">7</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">899</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleNumBase">2453</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleNumBase">82</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleNumBase">450</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">438</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleNumBase">7688</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleNumBase">43</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleNumBase">355</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.CatchParameterNameCheckModuleNumBase">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleNumBase">100</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleNumBase">9</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleNumBase">184</td>
+								
+									<td id="SeparatorWrapCommaModuleNumBase">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleNumBase">20</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleNumBase">194</td>
+								
+									<td id="RightCurlyAloneModuleNumBase">119</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheckModuleNumBase">295</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleNumBase">3</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleNumBase">200</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleNumBase">147027</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleNumBase">44</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleNumBase">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheckModuleNumBase">9</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.UpperEllCheckModuleNumBase">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleNumBase">2221</td>
+								
+									<td id="RightCurlySameModuleNumBase">52</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheckModuleNumBase">56</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheckModuleNumBase">67</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleNumBase">67</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleNumBase">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheckModuleNumBase">31</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheckModuleNumBase">143</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.InterfaceTypeParameterNameCheckModuleNumBase">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleNumBase">85</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleNumBase">35</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheckModuleNumBase">855</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheckModuleNumBase">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleNumBase">214</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleNumBase">264</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleNumBase">1280</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleNumBase">1419</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleNumBase">233</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumBase">7639</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleNumBase">108</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleNumBase">66</td>
+								
+									<td id="AnnotationLocationMostCasesModuleNumBase">33</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleNumBase">110</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleStatisticsPatch">409</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheckModuleStatisticsPatch">102</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleStatisticsPatch">19</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheckModuleStatisticsPatch">8</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleStatisticsPatch">7</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleStatisticsPatch">899</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleStatisticsPatch">2453</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleStatisticsPatch">82</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleStatisticsPatch">450</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleStatisticsPatch">438</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleStatisticsPatch">7688</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleStatisticsPatch">43</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleStatisticsPatch">355</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.CatchParameterNameCheckModuleStatisticsPatch">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleStatisticsPatch">100</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleStatisticsPatch">9</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleStatisticsPatch">184</td>
+								
+									<td id="SeparatorWrapCommaModuleStatisticsPatch">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleStatisticsPatch">20</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleStatisticsPatch">194</td>
+								
+									<td id="RightCurlyAloneModuleStatisticsPatch">43 (76 removed)</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheckModuleStatisticsPatch">295</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleStatisticsPatch">3</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleStatisticsPatch">200</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleStatisticsPatch">147027</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleStatisticsPatch">44</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleStatisticsPatch">1</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheckModuleStatisticsPatch">9</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.UpperEllCheckModuleStatisticsPatch">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleStatisticsPatch">2221</td>
+								
+									<td id="RightCurlySameModuleStatisticsPatch">52</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheckModuleStatisticsPatch">56</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheckModuleStatisticsPatch">67</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleStatisticsPatch">67</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleStatisticsPatch">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheckModuleStatisticsPatch">31</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheckModuleStatisticsPatch">143</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.InterfaceTypeParameterNameCheckModuleStatisticsPatch">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleStatisticsPatch">85</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleStatisticsPatch">35</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheckModuleStatisticsPatch">855</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheckModuleStatisticsPatch">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleStatisticsPatch">214</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleStatisticsPatch">264</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleStatisticsPatch">1280</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleStatisticsPatch">1419</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleStatisticsPatch">233</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleStatisticsPatch">7639</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleStatisticsPatch">108</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleStatisticsPatch">66</td>
+								
+									<td id="AnnotationLocationMostCasesModuleStatisticsPatch">33</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleStatisticsPatch">110</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.CatchParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleNumDiff">0</td>
+								
+									<td id="SeparatorWrapCommaModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleNumDiff">0</td>
+								
+									<td id="RightCurlyAloneModuleNumDiff">76</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.UpperEllCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleNumDiff">0</td>
+								
+									<td id="RightCurlySameModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.InterfaceTypeParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleNumDiff">0</td>
+								
+									<td id="AnnotationLocationMostCasesModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleNumDiff">0</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">76</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin-test/jdtScenario/C.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/eclipsePlugin-test/jdtScenario/C.java.html#L7">7</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs-tests/src/test/java/edu/umd/cs/findbugs/ba/jsr305/ValidationSecurityManagerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 56 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs-tests/src/test/java/edu/umd/cs/findbugs/ba/jsr305/ValidationSecurityManagerTest.java.html#L82">82</a></td>
+								
+								
+									
+									<td class="keepWidth">56</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/jsr305/ValidationSecurityManager.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 43 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/ba/jsr305/ValidationSecurityManager.java.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/DumbMethods.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 48 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugs/src/main/java/edu/umd/cs/findbugs/detect/DumbMethods.java.html#L78">78</a></td>
+								
+								
+									
+									<td class="keepWidth">48</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/fakeAnnotations/com/google/errorprone/annotations/CanIgnoreReturnValue.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 41 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/fakeAnnotations/com/google/errorprone/annotations/CanIgnoreReturnValue.java.html#L37">37</a></td>
+								
+								
+									
+									<td class="keepWidth">41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/AccidentalNonConstructorInInnerClass.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 9 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/AccidentalNonConstructorInInnerClass.java.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">9</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 13 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/AccidentalNonConstructorInInnerClass.java.html#L9">9</a></td>
+								
+								
+									
+									<td class="keepWidth">13</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 9 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/AccidentalNonConstructorInInnerClass.java.html#L15">15</a></td>
+								
+								
+									
+									<td class="keepWidth">9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/UseOfNonHashableClassInHashDataStructure.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/UseOfNonHashableClassInHashDataStructure.java.html#L6">6</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2009_05_03.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2009_05_03.java.html#L6">6</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2009_05_03.java.html#L9">9</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2011_09_24.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 27 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2011_09_24.java.html#L18">18</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2011_10_24.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 27 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2011_10_24.java.html#L17">17</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2013_01_29.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 32 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2013_01_29.java.html#L25">25</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 34 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2013_01_29.java.html#L29">29</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2013_05_06.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 38 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/bugIdeas/Ideas_2013_05_06.java.html#L48">48</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/CollectionIncompatibleTypeNegativeCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 25 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/CollectionIncompatibleTypeNegativeCases.java.html#L31">31</a></td>
+								
+								
+									
+									<td class="keepWidth">25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionNegativeCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionNegativeCases.java.html#L26">26</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionNegativeCases.java.html#L29">29</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 36 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionNegativeCases.java.html#L32">32</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 35 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionNegativeCases.java.html#L35">35</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L26">26</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L29">29</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L32">32</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 37 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L35">35</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 36 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L38">38</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 36 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionPositiveCases.java.html#L41">41</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionToBeExtended.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 35 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/FallthroughSuppressionToBeExtended.java.html#L23">23</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/IncompatibleEqualsNegativeCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 9 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/IncompatibleEqualsNegativeCases.java.html#L142">142</a></td>
+								
+								
+									
+									<td class="keepWidth">9</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 9 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/IncompatibleEqualsNegativeCases.java.html#L145">145</a></td>
+								
+								
+									
+									<td class="keepWidth">9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedNegativeCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 17 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedNegativeCases.java.html#L45">45</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 17 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedNegativeCases.java.html#L51">51</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedPositiveCases.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 17 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedPositiveCases.java.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 17 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/com/google/errorprone/bugpatterns/SuppressWarningsDeprecatedPositiveCases.java.html#L61">61</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/equals/DifferentClassesButMightBeEqual.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/equals/DifferentClassesButMightBeEqual.java.html#L19">19</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/equals/DifferentClassesButMightBeEqual.java.html#L22">22</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 62 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L12">12</a></td>
+								
+								
+									
+									<td class="keepWidth">62</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 92 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L15">15</a></td>
+								
+								
+									
+									<td class="keepWidth">92</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 70 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L18">18</a></td>
+								
+								
+									
+									<td class="keepWidth">70</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 109 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L21">21</a></td>
+								
+								
+									
+									<td class="keepWidth">109</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 73 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L24">24</a></td>
+								
+								
+									
+									<td class="keepWidth">73</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 115 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">115</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 94 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">94</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 128 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/ghIssues/Issue0049.java.html#L33">33</a></td>
+								
+								
+									
+									<td class="keepWidth">128</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow2.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooGuaranteedControlFlow2.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow2.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooNoControlFlow2.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooSimpleControlFlow.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooSimpleControlFlow.java.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 5 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/jsr305/TestFooSimpleControlFlow.java.html#L30">30</a></td>
+								
+								
+									
+									<td class="keepWidth">5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 50 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation.java.html#L115">115</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 50 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation.java.html#L116">116</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 50 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation2.java.html#L83">83</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 50 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/nullnessAnnotations/relax/TestNullnessRelaxation2.java.html#L84">84</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3120611.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 32 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3120611.java.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3555408.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 22 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3555408.java.html#L19">19</a></td>
+								
+								
+									
+									<td class="keepWidth">22</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3580266.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 19 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugs/Bug3580266.java.html#L14">14</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1191.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 32 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1191.java.html#L6">6</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1219.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 35 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1219.java.html#L18">18</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 35 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1219.java.html#L19">19</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1322.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 25 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1322.java.html#L7">7</a></td>
+								
+								
+									
+									<td class="keepWidth">25</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 34 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1322.java.html#L8">8</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 29 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1322.java.html#L11">11</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 38 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1322.java.html#L12">12</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1363.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 34 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1363.java.html#L8">8</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 65 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1363.java.html#L9">9</a></td>
+								
+								
+									
+									<td class="keepWidth">65</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 55 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1363.java.html#L11">11</a></td>
+								
+								
+									
+									<td class="keepWidth">55</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 66 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Bug1363.java.html#L12">12</a></td>
+								
+								
+									
+									<td class="keepWidth">66</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature301.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 35 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature301.java.html#L7">7</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 40 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature301.java.html#L8">8</a></td>
+								
+								
+									
+									<td class="keepWidth">40</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 44 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature301.java.html#L9">9</a></td>
+								
+								
+									
+									<td class="keepWidth">44</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature332.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A76" href = "#A76">#A76</a></td>
+								<td>warning</td>
+								<td>RightCurlyAlone</td>
+								<td>&#39;}&#39; at column 18 should be alone on a line.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/rivanov/java/github/checkstyle/contribution/checkstyle-tester/repositories/spotbugs/spotbugsTestCases/src/java/sfBugsNew/Feature332.java.html#L20">20</a></td>
+								
+								
+									
+									<td class="keepWidth">18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
