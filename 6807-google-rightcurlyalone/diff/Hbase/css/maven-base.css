@@ -13,7 +13,7 @@ table {
 }
 acronym {
   cursor: help;
-  border-bottom: 1px dotted #feb;
+  border-bottom: 1px solid black #feb;
 }
 table.bodyTable th, table.bodyTable td {
   padding: 2px 4px 2px 4px;
